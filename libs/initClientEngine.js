@@ -1,5 +1,5 @@
 const { Game, GameManager, LoadBalancerFactory, } = require("@leancloud/client-engine");
-const { APP_ID, APP_KEY, } = require("./configs");
+const { APP_ID, APP_KEY, } = require('./configs');
 
 const initClientEngine = () => {
     const reception = new GameManager(
