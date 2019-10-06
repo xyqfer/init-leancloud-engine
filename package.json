@@ -1,0 +1,33 @@
+{
+  "name": "@xyqfer/init-leancloud-engine",
+  "version": "1.1.0",
+  "description": "leancloud engine init utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "publish:npm": "npm publish --access=public --registry=https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyqfer/init-leancloud-engine.git"
+  },
+  "keywords": [
+    "leancloud",
+    "engine",
+    "init",
+    "utils"
+  ],
+  "author": "liangliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyqfer/init-leancloud-engine/issues"
+  },
+  "homepage": "https://github.com/xyqfer/init-leancloud-engine#readme",
+  "dependencies": {
+    "@leancloud/client-engine": "^0.8.0-beta.0",
+    "@leancloud/play": "^0.18.0-beta.5",
+    "leancloud-storage": "^3.15.0",
+    "leanengine": "^3.4.0",
+    "rxjs": "^6.5.3"
+  }
+}
